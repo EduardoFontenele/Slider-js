@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Internal CSS -->
+    <link rel="stylesheet" href="/animation/css/style.css" />
+    <!-- favicon -->
+    <link
+      rel="icon"
+      type="imagem/png"
+      href="/animation/icons/favicon-32x32.png"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>DF Eng</title>
+  </head>
+  
+  <div class="blank"></div>
+  <body>
+    <nav>
+      <a href="#">
+        <img src="/animation/icons/ms-icon-150x150.png" alt="" />
+      </a>
+
+      <ul>
+        <li>
+          <a href="#">Home</a>
+        </li>
+
+        <li>
+          <a href="#">Portfolio</a>
+        </li>
+
+        <li>
+          <a href="#">Sobre</a>
+        </li>
+
+        <li>
+          <a href="#">Contato</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="slider-carousel" id="slider">
+      <img
+        src="/animation/img/foto_casa_pb.jpg"
+        class="slider-img"
+        alt=""
+        id="img-1"
+      />
+      <img
+        src="/animation/img/foto3_casa.jpeg"
+        class="slider-img hidden"
+        alt=""
+        id="img-2"
+      />
+      <img
+        src="/animation/img/foto4_predio.jpeg"
+        class="slider-img hidden"
+        alt=""
+        id="img-3"
+      />   
+    </div>
+    
+    <div class="slider-buttons">
+      <button id="left-btn" type="button">Previous</button>
+      <button id="right-btn" type="button">Next</button>
+    </div>
+    
+    <script src="/animation/js/animation.js"></script>
+  </body>
+</html>
